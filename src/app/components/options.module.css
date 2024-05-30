@@ -1,0 +1,28 @@
+.options {
+    flex-basis: 40%;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.prompt {
+    flex-basis: 100%;
+}
+
+.option {
+    padding: 5px 20px;
+    margin: 5px 0;
+    cursor: pointer;
+    width: fit-content;
+    height: fit-content;
+}
+
+.option:first-child {
+    margin-top: 20px;
+}
+
+.option.activeSuffix {
+    background: white;
+    color: black;
+}
